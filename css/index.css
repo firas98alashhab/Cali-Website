@@ -2300,9 +2300,7 @@ h1{
 
 
 
-
 .About_us{
-  line-height: 25px;
   font-family: normalFont;
   width: 100%;
   min-height: 750px;
@@ -2315,8 +2313,11 @@ h1{
 
 
 .About_us p{
-  font-family: 'Montserrat', sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transform: scale(0.9,1.3);
   font-size: 0.88rem;
+  line-height: 25px;
 }
 
 
@@ -2362,8 +2363,6 @@ h1{
 }
 
 .counter a{
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: white;
   transition: 1s;
