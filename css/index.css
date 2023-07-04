@@ -113,14 +113,14 @@ body {
 
               /* ------------------FIRAS Team---------------------- */
               .full-container{
-                margin-bottom: -2200px;
+                margin-bottom: -200px;
               }
               .containerr {
                 margin-left: auto;
                 margin-right: auto;
+                margin-bottom: 50px;
                 display: flex;
                 justify-content: center;
-                min-height: 100vh;
                 width: 85%;
               }
               
@@ -132,35 +132,35 @@ body {
               }
 
               .card1 {
-                margin: 100px auto 10px;
+                margin: auto auto 10px;
                 width: 250px;
                 height: 400px;
                 perspective: 1000px;
               }
               
               .card2 {
-                margin: -200px auto 10px;
+                margin: auto auto 10px;
                 width: 250px;
                 height: 400px;
                 perspective: 1000px;
               }
 
               .card3 {
-                margin: -650px auto 10px;
+                margin: auto auto 10px;
                 width: 250px;
                 height: 400px;
                 perspective: 1000px;
               }
 
               .card4 {
-                margin: -1100px auto 10px;
+                margin: auto auto 10px;
                 width: 250px;
                 height: 400px;
                 perspective: 1000px;
               }
 
               .card5 {
-                margin: -1550px 25px 10px;
+                margin: auto 25px 10px;
                 width: 250px;
                 height: 400px;
                 perspective: 1000px;
@@ -2315,6 +2315,7 @@ h1{
 
 
 .About_us p{
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.88rem;
 }
 
@@ -2351,7 +2352,7 @@ h1{
 
 .counter h1{
   font-size: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-top: 10px;
 }
 
@@ -2361,6 +2362,8 @@ h1{
 }
 
 .counter a{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: white;
   transition: 1s;
