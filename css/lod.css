@@ -1,0 +1,72 @@
+
+body{
+    background-color: black;
+}
+
+.lod1{
+    margin: 355px auto;
+  }
+  
+  
+  .lod{
+    width: 30px;
+    height: 30px;
+    background:  rgb(47, 0, 255);
+    border-radius: 50% 0 0 0;
+    display: block;
+    margin-left: 60px;
+    -webkit-animation: rotate 9s linear infinite;
+    animation: rotate 9s linear infinite;
+    box-shadow: 30px 30px 20px 20px rgba(47, 0, 255, 0.356);
+  
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotateZ(360deg);
+    }
+    to {
+      transform: rotateZ(0deg);
+    }
+  }
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotateZ(360deg);
+    }
+    to {
+      -webkit-transform: rotateZ(0deg);
+    }
+  }
+  
+  
+  .animat{
+    width: 20px;
+    height: 20px;
+    background:  rgb(47, 0, 255);
+    border-radius: 50%;
+    display: block;
+    -webkit-animation: animat 1s linear infinite;
+    animation: animat 1s linear infinite;
+    box-shadow: 30px 30px 20px 20px rgba(47, 0, 255, 0.356);
+    position: fixed;
+  }
+  
+  @keyframes animat {
+    10%{
+      margin: 0;
+    }
+   20%{
+    margin-top: 90px;
+    margin-left: 20px;
+   }
+  }
+  
+  /* 
+  @-webkit-keyframes animat {
+    from {
+      -webkit-transform: rotateZ(360deg);
+    }
+    to {
+      -webkit-transform: rotateZ(0deg);
+    }
+  } */
