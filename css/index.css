@@ -2788,12 +2788,11 @@ h1{
 
 
 .goals{
-  width: 100%;
+  display: flex;
+  justify-content: center;
   /* background-color: #4b3679; */
   text-align: center;
-  margin-top: 100px;
-  margin-top: 200px;
-  margin-left: -69px;
+  margin: 200px auto;
 }
 
 .goals img{
