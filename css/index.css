@@ -3428,6 +3428,57 @@ h1{
   .loogo{
     margin-left: -7%;
   }
+  .vid{
+    padding-top: 80px;
+  }
+  .na {
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    display: flex;
+  }
+  .na .nav .btn-nav {
+    margin-left: -30px;
+    margin-top: 20px;
+  }
+  .containerr .card {
+    padding-top: 120px;
+    margin-bottom: -30px;
+    width: 80px;
+    height: 200px;
+  }
+  .containerr .card1 {
+    width: 66px;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+  .containerr .card2 {
+    width: 66px;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+  .containerr .card3 {
+    width: 66px;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+  .containerr .card4 {
+    width: 66px;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+  .containerr .card5 {
+    margin: auto 3px 10px;
+    width: 66px;
+    height: 180px;
+    margin-bottom: 300px;
+  }
+  .card__face--back {
+    margin-left: -3.9px;
+  }
+  .card__face .card__header {
+    padding: 30px 2px 4px;
+  }
 }
 
 @media only screen and (max-width: 500px){
@@ -3436,7 +3487,7 @@ h1{
     margin-left: -1%;
   }
   .nav{
-    width: 106%;
+    width: 103%;
     height: 110px;
     position: fixed;
     display: flex;
@@ -3447,6 +3498,200 @@ h1{
   .kave-btn {
     margin-top: 30px;
     right: -50px;
+  }
+  .PRODUCTS{
+    width: 95%;
+    overflow: hidden;
+    transition: 1s;
+    margin-left: auto;
+    margin-right: 18px;
+  }
+  .text_about p {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .About_us p {
+    font-size: 0.5rem;
+  }
+  .text-goal p {
+    font-size: 0.5rem;
+  }
+  .vision p{
+    font-size: 0.55rem;
+  }
+  .founders {
+    padding-top: 50px;
+  }
+  .containerr {
+    padding-top: auto;
+  }
+  .card {
+    padding-top: 120px;
+    margin-bottom: -10px;
+    width: 100px;
+    height: 200px;
+  }
+  .card1 {
+    width: 80px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  .card2 {
+    width: 80px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  .card3 {
+    width: 80px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  .card4 {
+    width: 80px;
+    height: 150px;
+    margin-bottom: 30px;
+  }
+  .card5 {
+    margin: auto 3px 10px;
+    width: 80px;
+    height: 150px;
+    margin-bottom: 300px;
+  }
+  .card__face--front img:hover {
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .card__header {
+    padding: 30px 10px 4px;
+  }
+  .card__header h2 {
+    font-size: 8px;
+  }
+  .card__body {
+    padding: 20px 5px 5px;
+  }
+  .card__body h3 {
+    font-size: 7px;
+    font-weight: 500;
+    margin-bottom: 35px;
+  }
+  .card__body p {
+    font-size: 6px;
+    line-height: 1.5;
+  }
+  .card__body .short-p{
+    font-size: 6px;
+    margin-top: 10px;
+  }
+
+  .card__body .short-p-x2{
+    font-size: 6px;
+    margin-top: 10px;
+  }
+
+  .card__body .long-p{
+    font-size: 6px;
+    margin-top: -15px;
+  }
+  .responsive {
+    margin-top: -30px;
+  }
+  .responsive-h3 {
+    margin-top: -13px;
+  }
+  .responsive-h2 {
+    margin-top: -10px;
+  }
+  .responsive-long {
+    margin-top: -25px;
+  }
+  .responsive-h3-long {
+    display: none;
+  }
+  .responsive-h2-long {
+    margin-top: -25px;
+  }
+  .responsive-h2-long-name {
+    margin-left: -4px;
+  }
+  .responsive-h2-long-name2 {
+    margin-top: -20px;
+    margin-bottom: 5px;
+  }
+  .responsive-h2-long2 {
+    margin-top: -10px;
+  }
+  .responsive-h2-long3{
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+  .long-h3 {
+    display: none;
+  }
+ .card__body .long-p {
+  font-size: 5px;
+  }
+ .gallery {
+  width: 98%;
+  }
+  .home{
+    padding-top: 170px;
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nav{
+    width: 102%;
+    height: 110px;
+    position: fixed;
+    display: flex;
+  }
+  .btn-nav {
+    margin-left: -10px;
+  }
+  .PRODUCTS{
+    width: 96.5%;
+    overflow: visible;
+    transition: 1s;
+    margin-left: auto;
+    margin-right: 25px;
+  }
+  .card {
+    padding-top: 120px;
+    margin-bottom: -30px;
+    width: 90px;
+    height: 200px;
+  }
+  .card1 {
+    width: 75px;
+    height: 155px;
+    margin-bottom: 30px;
+  }
+  .card2 {
+    width: 75px;
+    height: 155px;
+    margin-bottom: 30px;
+  }
+  .card3 {
+    width: 75px;
+    height: 155px;
+    margin-bottom: 30px;
+  }
+  .card4 {
+    width: 75px;
+    height: 155px;
+    margin-bottom: 30px;
+  }
+  .card5 {
+    width: 75px;
+    height: 155px;
+    margin-bottom: 300px;
+  }
+  .card__face--back {
+    margin-left: -3.9px;
   }
 }
 

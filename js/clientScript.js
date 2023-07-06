@@ -26,6 +26,7 @@ class Carousel {
       el.classList.remove('gallery-item-12');
       el.classList.remove('gallery-item-13');
       el.classList.remove('gallery-item-14');
+      el.classList.remove('gallery-item-15');
     });
 
     this.carouselArray.slice(0, 13).forEach((el, i) => {

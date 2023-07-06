@@ -164,7 +164,7 @@ nav{
 
 ul{
 display: grid;
-grid-template-columns: repeat(8, 100vw);
+grid-template-columns: repeat(9, 100vw);
   cursor: grab;
   overflow-x: scroll;
   white-space: nowrap;
