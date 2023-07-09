@@ -3422,6 +3422,7 @@ h1{
   
   
 }
+
 @media only screen and (max-width: 400px) {
   .product-text{
     font-size: 30px;
@@ -3489,6 +3490,17 @@ h1{
     transition: 1s;
     margin-left: auto;
     margin-right: 18px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .na{
+    margin-left: -14px;
+    width: 105%;
+    height: 90px;
+    position: fixed;
+    z-index: 99997;
+    left: 0;
   }
 }
 
