@@ -79,6 +79,15 @@ nav{
 	 width: 550px;
 	 margin-bottom: 50px;
 }
+.hero-slider .carousel-cell .inner .long-p-img {
+	margin-top: 70px;
+}
+.hero-slider .carousel-cell .inner .long-p-img-2 {
+	margin-top: -10px;
+}
+.hero-slider .carousel-cell .inner .long-p-img-2 {
+	margin-top: -10px;
+}
  .hero-slider .carousel-cell .inner .title {
 	 margin-top: -50px;
 	 font-family: 'Montserrat', sans-serif;
@@ -88,6 +97,37 @@ nav{
 	 letter-spacing: 3px;
 	 margin-bottom: 80px;
 }
+.hero-slider .carousel-cell .inner .title-2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+	font-weight: 800;
+}
+.hero-slider .carousel-cell .inner .title-3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+	font-weight: 800;
+	margin-top: 30px;
+}
+.hero-slider .carousel-cell .inner .long-p {
+	margin-top: -50px;
+	margin-bottom: 60px;
+}
+.hero-slider .carousel-cell .inner .long-p-2 {
+	margin-top: -120px;
+	margin-bottom: 60px;
+}
+.hero-slider .carousel-cell .inner .long-p-3 {
+	margin-top: -150px;
+	margin-bottom: 10px;
+}
  .hero-slider .carousel-cell .inner p {
 	 padding: 14px 250px;
 	 font-family: 'Montserrat', sans-serif;
@@ -96,7 +136,15 @@ nav{
 	 color: #fff;
 	 line-height: 30px;
 }
-
+	.hero-slider .carousel-cell .inner .long_p {
+		padding: 14px 150px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1rem;
+		letter-spacing: 3px;
+		color: #fff;
+		line-height: 30px;
+		margin-bottom: -30px;
+	}
  .hero-slider .flickity-prev-next-button {
 	 width: 80px;
 	 height: 80px;
@@ -124,3 +172,18 @@ nav{
 	 border: 0 solid #f00;
 }
  
+.hero-slider .carousel-cell .inner .btn {
+	border: 1px solid #fff;
+	padding: 14px 18px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.8rem;
+	letter-spacing: 3px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.hero-slider .carousel-cell .inner .btn:hover {
+	background: #fff;
+	color: #000;
+}
