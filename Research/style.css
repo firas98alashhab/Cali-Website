@@ -85,9 +85,7 @@ nav{
 .hero-slider .carousel-cell .inner .long-p-img-2 {
 	margin-top: -10px;
 }
-.hero-slider .carousel-cell .inner .long-p-img-2 {
-	margin-top: -10px;
-}
+
  .hero-slider .carousel-cell .inner .title {
 	 margin-top: -50px;
 	 font-family: 'Montserrat', sans-serif;
@@ -186,4 +184,64 @@ nav{
 .hero-slider .carousel-cell .inner .btn:hover {
 	background: #fff;
 	color: #000;
+}
+
+@media only screen and (max-width: 400px) {
+	.hero-slider .carousel-cell .inner .title {
+		margin-top: -50px;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.5rem;
+		line-height: 1.2em;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		margin-bottom: 30px;
+ }
+.hero-slider .carousel-cell .inner .subtitle {
+	width: 250px;
+	margin-bottom: 50px;
+	margin-top: 120px;
+}
+
+.hero-slider .carousel-cell .inner .btnn {
+	padding: 14px 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.6rem;
+	letter-spacing: 3px;
+	color: #fff;
+	line-height: 1rem;
+}
+.hero-slider .carousel-cell .inner .long-p-img {
+	margin-top: 150px;
+}
+.hero-slider .carousel-cell .inner .long-p {
+	margin-top: -70px;
+	margin-bottom: 10px;
+}
+
+.hero-slider .carousel-cell .inner .btn {
+	border: 1px solid #fff;
+	padding: 8px 12px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.5rem;
+	letter-spacing: 3px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.hero-slider .carousel-cell .inner .long-p-img-3 {
+	margin-top: 130px;
+}
+.hero-slider .carousel-cell .inner .long-p-3 {
+	margin-top: -80px;
+	margin-bottom: 10px;
+}
+.hero-slider .carousel-cell .inner .btnnn {
+	padding: 14px 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.5rem;
+	letter-spacing: 3px;
+	color: #fff;
+	line-height: 0.8rem;
+}
 }
