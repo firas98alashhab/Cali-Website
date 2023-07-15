@@ -244,4 +244,33 @@ nav{
 	color: #fff;
 	line-height: 0.8rem;
 }
+.hero-slider .flickity-page-dots {
+	display: none;
+}
+.hero-slider .carousel-cell .inner .long-p-img {
+	margin-top: 220px;
+}
+.hero-slider .carousel-cell .inner .long-p {
+	margin-top: -50px;
+	margin-bottom: 20px;
+}
+.hero-slider .carousel-cell .inner .long-p-p {
+	font-size: 0.5rem;
+}
+.hero-slider .carousel-cell .inner .long-p-img-2 {
+	margin-top: 140px;
+}
+.hero-slider .carousel-cell .inner .long-p-img-3 {
+	margin-top: 120px;
+}
+.hero-slider .carousel-cell .inner .title-2 {
+	line-height: 1.2em;
+	margin-bottom: -20px;
+	margin-top: -20px;
+}
+.hero-slider .carousel-cell .inner .title-3 {
+	line-height: 1.2em;
+	margin-bottom: -20px;
+	margin-top: -10px;
+}
 }
