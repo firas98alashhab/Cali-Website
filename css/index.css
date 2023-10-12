@@ -2131,8 +2131,58 @@ nav{
    */
 }
 
+.btn-nav-products {
+  width: 52.2%;
+  display: flex;
+  color: white;
+  margin: 3% auto auto auto;
+  list-style-type: none;
+  gap: 30px;
+  /* background-color: #da0000;
+   */
+}
 
-.btn-nav-text{
+@media (max-width: 1550px) {
+  .btn-nav-products {
+    width: 55.2%;
+    display: flex;
+    color: white;
+    margin: 3% auto auto auto;
+    list-style-type: none;
+    gap: 30px;
+    /* background-color: #da0000;
+     */
+  }
+}
+
+@media (max-width: 1450px) {
+  .btn-nav-products {
+    width: 60.2%;
+    display: flex;
+    color: white;
+    margin: 3% auto auto auto;
+    list-style-type: none;
+    gap: 30px;
+    /* background-color: #da0000;
+     */
+  }
+}
+
+@media (max-width: 1320px) {
+  .btn-nav-products {
+    width: 64.2%;
+    display: flex;
+    color: white;
+    margin: 3% auto auto auto;
+    list-style-type: none;
+    gap: 30px;
+    /* background-color: #da0000;
+     */
+  }
+}
+
+
+.btn-nav-text {
   color: white;
   text-decoration: none;
   padding: 16px;
@@ -2140,7 +2190,29 @@ nav{
   font-family: normalFont;
   font-size: 0.75rem;
   font-weight: bold;
+  position: relative;
+  transition: color 0.5s; /* Add relative positioning to the parent element */
 }
+
+.btn-nav-text:hover {
+  color: rgb(0, 255, 191);
+}
+
+.btn-nav-text::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px; /* Adjust this value to set the border thickness */
+  bottom: 0;
+  left: 0; /* Start from the left */
+  background-color: rgb(0, 255, 191);
+  transition: width 0.5s; /* Add transition to the width property */
+}
+
+.btn-nav-text:hover::before {
+  width: 100%; /* Expand to the right on hover */
+}
+
 
 
 .menu{
