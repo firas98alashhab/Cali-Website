@@ -1,8 +1,8 @@
 const textC = document.getElementsByClassName("text-cali");
 const nums = document.querySelectorAll(".nums .num");
 const all_2 = document.querySelectorAll(".all-2");
-let about = document.getElementById("About_us");
-
+const PRODUCTS = document.getElementById("avs-products");
+const logo = document.getElementById("loogo");
 
 
 
@@ -76,29 +76,18 @@ function startCount(el) {
 
 
 
-window.onscroll = function () {
-        if (window.scrollY >= PRODUCTS.offsetTop) {
-                $(".all-2").addClass("animat");
-        }
-        else {
-                $(".all-2").removeClass("animat");
-        }
-        if (window.scrollY >= about.offsetTop) {
-                if (!started) {
-                        startCount(document.querySelectorAll(".nums .num")[0]);
-                        startCount(document.querySelectorAll(".nums .num2")[0]);
-                        startCount(document.querySelectorAll(".nums .num3")[0]);
-                }
-                started = true;
-        }
+const nav = document.querySelector('.nav');
+let isScrolled = false;
 
-        if (window.scrollY > 100) {
-                $(".nav").addClass("nav2");
-        }
-        else {
-                $(".nav").removeClass("nav2");
-        }
-}
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 0 && !isScrolled) {
+        nav.classList.add('nav2');
+        isScrolled = true;
+    } else if (window.scrollY === 0 && isScrolled) {
+        nav.classList.remove('nav2');
+        isScrolled = false;
+    }
+});
 
 
 
@@ -166,7 +155,6 @@ $(".all-2").hover(function () {
 
 
 const carousel = document.querySelector(".carousel"),
-        firstImg = carousel.querySelectorAll("img")[0],
         arrowIcons = document.querySelectorAll(".next-client");
 
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
@@ -226,16 +214,6 @@ const dragStop = () => {
         autoSlide();
 }
 
-carousel.addEventListener("mousedown", dragStart);
-carousel.addEventListener("touchstart", dragStart);
-
-document.addEventListener("mousemove", dragging);
-carousel.addEventListener("touchmove", dragging);
-
-document.addEventListener("mouseup", dragStop);
-carousel.addEventListener("touchend", dragStop);
-
-
 
 $(".map button").click(function () {
         $("button").removeClass("btn-activ");
@@ -275,40 +253,6 @@ $(".Saudi-btn").click(function () {
 
 
 
-$(document).ready(function () {
-        $(".img-goal-1").hover(function () {
-                $(".text-goal-1").addClass("goal-h");
-        });
-
-        $(".img-goal-1").mouseleave(function () {
-                $(".text-goal-1").removeClass("goal-h");
-        });
-
-
-        $(".img-goal-2").hover(function () {
-                $(".text-goal-2").addClass("goal-h");
-        });
-
-        $(".img-goal-2").mouseleave(function () {
-                $(".text-goal-2").removeClass("goal-h");
-        });
-
-        $(".img-goal-3").hover(function () {
-                $(".text-goal-3").addClass("goal-h");
-        });
-
-        $(".img-goal-3").mouseleave(function () {
-                $(".text-goal-3").removeClass("goal-h");
-        });
-
-        $(".img-goal-4").hover(function () {
-                $(".text-goal-4").addClass("goal-h");
-        });
-
-        $(".img-goal-4").mouseleave(function () {
-                $(".text-goal-4").removeClass("goal-h");
-        });
-});
 
 //        ---------->FIRAS LOGIC<---------
 const hiddenElement = document.querySelectorAll('.hiddden');
