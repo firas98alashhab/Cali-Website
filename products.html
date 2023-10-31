@@ -128,15 +128,15 @@
             </h2>
             <div class="ai-products">
               <div class="text-ai">
+                <div class="video-ai">
+                  <video src="img/product-videos/avs.mp4" loop muted></video>
+                </div>
                 <div class="text-ai-2">
                   <div class="text-product-ai">
                     <h3>Artificial Intelligence</h3>
                     <span>
-                      We try to mimic human thinking behavior through software that is trained by machine learning and deep learning, by reverse-engineering human capabilities and traits and applying them to machine. This department at its core aims to develop intelligent machines. Simply put, the foundational goal of the AL Department is to design a technology that enables computer systems to work intelligently yet independently. <a href="#">Learn more</a>
+                      We try to mimic human thinking behavior through software that is trained by machine learning and deep learning, by reverse-engineering human capabilities and traits and applying them to machine. This department at its core aims to develop intelligent machines. Sim ply put, the foundational goal of the AL Department is to design a technology that enables computer systems to work intelligently yet independently. <a href="#">Learn more</a>
                     </span>
-                  </div>
-                  <div class="video-ai">
-                    <img src="Ai/images/2.png" alt="">
                   </div>
                 </div>
               </div>
@@ -151,14 +151,70 @@
                 </span>
               </div>
               <div class="video-avs">
-                <img src="img/avs-logo-png.png" alt="">
+                <video src="img/product-videos/avs.mp4" loop muted></video>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="last-2-products">
+          <div class="text-research">
+            <div class="text-research-2">
+              <div class="text-product-research">
+                <h3>Research and Development</h3>
+                <span>
+                  R&D: We follow the latest research releases from different universities and technology companies in order to 
+                  validate their research and to develop it to improve its capabilities in our field moreover we collaborate with 
+                  universities to find breakthroughs and problem-solving for the most common matters. <a href="#">Learn more</a>
+                </span>
+              </div>
+            </div>
+            <div class="video-research">
+              <video src="img/product-videos/avs.mp4" loop muted></video>
+            </div>
+          </div>
+          <div class="text-mobile">
+            <div class="text-mobile-2">
+              <div class="text-product-mobile">
+                <h3>Mobile Application</h3>
+                <span>
+                  We can develop any mobile application, using
+                  innovative solutions and high techs such as VR, AR, UI, and
+                  UX. To achieve attractive designs. <a href="#">Learn more</a>
+                </span>
               </div>
             </div>
           </div>
         </div>
       </section>
       
+      <script>
+        const textAvsContainer = document.querySelector(".text-avs");
+        const videoElement = document.querySelector(".text-avs video");
+        const textAIContainer = document.querySelector(".text-ai");
+        const videoElement1 = document.querySelector(".text-ai video");
+        const textResearchContainer = document.querySelector(".text-research");
+        const videoElement2 = document.querySelector(".text-research video");
       
+        textAvsContainer.addEventListener("mouseover", () => {
+          videoElement.play();
+        });
+        textAIContainer.addEventListener("mouseover", () => {
+          videoElement1.play();
+        });
+        textResearchContainer.addEventListener("mouseover", () => {
+          videoElement2.play();
+        });
+      
+        textAvsContainer.addEventListener("mouseout", () => {
+          videoElement.pause();
+        });
+        textAIContainer.addEventListener("mouseout", () => {
+          videoElement1.pause();
+        });
+        textResearchContainer.addEventListener("mouseout", () => {
+          videoElement2.pause();
+        });
+      </script>
 
         <section data-aos="fade-up" class="footer">
           <div class="footer-content">
