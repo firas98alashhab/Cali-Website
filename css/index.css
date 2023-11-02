@@ -2259,9 +2259,10 @@ h1{
 }
 
 .vid{
-  width: 100%;
+  width: 85%;
   margin: 0px auto auto auto;
   display: flex;
+  padding-top: 60px;
 }
 
 
