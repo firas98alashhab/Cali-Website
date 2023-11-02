@@ -24,8 +24,8 @@
         <meta name="viewport" content="width=device-width">
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+        <link id="aos-css" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script id="aos-js" src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
       </head>
         
     <body>
@@ -46,6 +46,35 @@
       <div class="firefly"></div>
         <div class="background" data-aos="zoom-in"></div>
       </div>
+
+      <script>
+        // Function to remove the AOS CSS and JavaScript links
+        function removeAOSLinks() {
+          var cssLink = document.getElementById("aos-css");
+          var jsScript = document.getElementById("aos-js");
+          
+          if (cssLink) {
+            cssLink.parentNode.removeChild(cssLink);
+          }
+          
+          if (jsScript) {
+            jsScript.parentNode.removeChild(jsScript);
+          }
+        }
+
+        // Check screen width and remove links if width is less than 1920px
+        function checkScreenWidth() {
+          if (window.innerWidth < 1920) {
+            removeAOSLinks();
+          }
+        }
+
+        // Add an event listener to check screen width when the window is resized
+        window.addEventListener('resize', checkScreenWidth);
+
+        // Call checkScreenWidth on page load to handle the initial state
+        checkScreenWidth();
+      </script>
       
       <!-- ---------------nav------------------------->
       <div class="na " data-aos="fade-down">
