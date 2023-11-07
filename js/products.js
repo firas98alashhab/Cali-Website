@@ -257,19 +257,19 @@ $(".Saudi-btn").click(function () {
 //        ---------->FIRAS LOGIC<---------
 const hiddenElement = document.querySelectorAll('.hiddden');
 const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                        entry.target.classList.add('show');
-
-                } else {
-                        entry.target.classList.add('hiddden');
-                        entry.target.classList.remove('show');
-                }
-        });
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            if (!entry.target.classList.contains('show')) {
+                entry.target.classList.add('show');
+            }
+        } else {
+            entry.target.classList.add('hiddden');
+        }
+    });
 });
 
-
 hiddenElement.forEach((el) => observer.observe(el));
+
 
 
 
