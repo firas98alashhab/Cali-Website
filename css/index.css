@@ -2392,7 +2392,7 @@ h1{
   text-align: center;
   align-items: center;
   margin-bottom: 100px;
-  padding-top: 250px;
+  padding-top: 100px;
 }
 
 
@@ -2466,6 +2466,7 @@ h1{
 .font-cali{
   margin-top: -300px;
   font-family: CaliTitleFont;
+  padding-bottom: 250px;
 }
 
 
@@ -6356,7 +6357,7 @@ h1{
 
   .content-header {
     border-bottom: 1px solid rgba(128, 128, 128, 0.212);
-    padding: 300px 120px 100px 120px;
+    padding: 125px 120px 100px 120px;
     align-items: center;
     text-align: center;
   }
