@@ -66,7 +66,7 @@ nav{
 	 height: 100%;
 	 background-repeat: no-repeat;
 	 background-size: cover;
-	 background-position: center;
+	 background-position: center !important;
 }
  .hero-slider .carousel-cell .inner {
 	 position: relative;
@@ -185,6 +185,141 @@ nav{
 	background: #fff;
 	color: #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+	.hero-slider .carousel-cell .inner .title {
+		font-size: 1.5rem;
+		margin-bottom: 30px;
+}
+.hero-slider .carousel-cell .inner .subtitle {
+	width: 450px;
+	margin-bottom: 10px;
+}
+
+.hero-slider .carousel-cell .inner .btnn {
+	padding: 14px 170px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.9rem;
+	letter-spacing: 3px;
+	color: #fff;
+	line-height: 1.2rem;
+}
+.hero-slider .carousel-cell .inner .long-p-img {
+	margin-top: 150px;
+}
+.hero-slider .carousel-cell .inner .long-p {
+	margin-top: -70px;
+	margin-bottom: 10px;
+}
+
+.hero-slider .carousel-cell .inner .btn {
+	border: 1px solid #fff;
+	padding: 8px 12px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.5rem;
+	letter-spacing: 3px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+.hero-slider .carousel-cell .inner .long-p-img-3 {
+	margin-top: 130px;
+}
+.hero-slider .carousel-cell .inner .long-p-3 {
+	margin-top: -80px;
+	margin-bottom: 10px;
+}
+.hero-slider .carousel-cell .inner .btnnn {
+	padding: 14px 80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.5rem;
+	letter-spacing: 3px;
+	color: #fff;
+	line-height: 0.8rem;
+}
+.hero-slider .carousel-cell .inner .long-p-img {
+	margin-top: 0px;
+}
+.hero-slider .carousel-cell .inner .long-p {
+	margin-top: -50px;
+	margin-bottom: 20px;
+}
+.hero-slider .carousel-cell .inner .long-p-p {
+	font-size: 0.9rem;
+}
+.hero-slider .carousel-cell .inner .long-p-img-2 {
+	margin-top: 140px;
+}
+.hero-slider .carousel-cell .inner .long-p-img-3 {
+	margin-top: 120px;
+}
+.hero-slider .carousel-cell .inner .title-2 {
+	line-height: 1.2em;
+	margin-bottom: -20px;
+	margin-top: -20px;
+}
+.hero-slider .carousel-cell .inner .title-3 {
+	line-height: 1.2em;
+	margin-bottom: -20px;
+	margin-top: -10px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 400px) {
 	.hero-slider .carousel-cell .inner .title {

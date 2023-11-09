@@ -3488,6 +3488,10 @@ h1{
     border-radius: 0% !important;
     padding-bottom: 20px;
   }
+  .product-item .video-embed img {
+    border-radius: 0% !important;
+    padding-bottom: 20px;
+  }
 
   .product-content .product-header {
     color: #fff;
@@ -6469,7 +6473,51 @@ h1{
   .product-item .video-embed iframe {
     border-radius: 5% !important;
   }
+
+  .product-item .video-embed img {
+    border-radius: 5% !important;
+  }
+  
   
   .product-item:last-child {
     padding-bottom: 150px;
+  }
+
+  .content-header span a {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .content-header span a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+  }
+  
+  .content-header span a:hover::after {
+    animation: underline 0.3s ease forwards;
+  }
+  
+  @keyframes underline {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+
+  .flickity-button {
+    padding-top: 500px;
   }

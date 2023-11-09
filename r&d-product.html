@@ -28,7 +28,7 @@
         <script id="aos-js" src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
     </head>
         
-    <body>
+    <body style="background: black;">
       <div class="firefly"></div>
       <div class="firefly"></div>
       <div class="firefly"></div>
@@ -79,7 +79,7 @@
       <div class="na " data-aos="fade-down">
 
         <nav class="nav " style="position: relative;">
-          <a href="./index.html" class="loogo" id="loogo" style="float: left;">
+          <a href="products.html" class="loogo" id="loogo" style="float: left;">
             <div></div>
           </a>
     
@@ -93,13 +93,11 @@
             <li><a class="btn-nav-text h-nav" href="products.html">Products</a></li>
             <li><a class="btn-nav-text h-nav" href="index.html#map">Contact Us</a></li>
           </ul>
-          <a href="https://tour.cali.global/">
+          <a href="products.html#last-2-products">
             <div class="an-vr">
-              <!-- <div class="vr"  style="float: left;"> </div>
-                            <div class="an-vr2"><h2 class="an-vr-t">Virtual Company</h2></div> -->
               <button class="kave-btn" id="kave-btn">
                 <span class="kave-line"></span>
-                Virtual Tour
+                Back
               </button>
             </div>
           </a>
@@ -125,114 +123,126 @@
         </div>
       </div>
       <!-- ---------------nav----------------------- -->
-      <section class="home" id="home">
-        <div class="vid" data-aos="zoom-out">
-          <img src="img/background-earth-1.gif" class="vid">
-        </div>
-
-        <script>
-          AOS.init();
-        </script>
-
-      <div class="text" >
-        <h1 class="font-cali" data-aos="fade-down" class="text-cali">CALI.PRODUCTS</h1>  
-    </div>
-      </section>
-
-      <section id="avs-products" style="margin-bottom: 100px;">
-        <div class="product-container">
-          <div class="main-title">
-            <h2>Our Advanced Visualization team excels in data-driven visuals for better decision-making and communication, covering analytics, 3D modeling, and VR experiences.
-            </h2>
-            <div class="ai-products">
-              <div class="text-ai">
-                <div class="video-ai">
-                  <video src="img/product-videos/avs.mp4" loop muted></video>
-                </div>
-                <div class="text-ai-2">
-                  <div class="text-product-ai">
-                    <h3>Artificial Intelligence</h3>
-                    <span>
-                      We try to mimic human thinking behavior through software that is trained by machine learning and deep learning, by reverse-engineering human capabilities and traits and applying them to machine. This department at its core aims to develop intelligent machines. Sim ply put, the foundational goal of the AL Department is to design a technology that enables computer systems to work intelligently yet independently. <a href="ai-product.html">Learn more</a>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="text-avs">
-            <div class="text-avs-2">
-              <div class="text-product">
-                <h3>Advanced Visualization Studio</h3>
-                <span>
-                  CGI Helps our clients present their ideas, Products, and projects with the best outcome. Give the tools they need to lead their business. We provide our services in the Metaverse, Virtual Educational Laboratories, and AR / VR technologies. In addition to marking entertaining virtual tours for clients. <a href="avs-product.html">Learn more</a>
-                </span>
-              </div>
-              <div class="video-avs">
-                <video src="img/product-videos/avs.mp4" loop muted></video>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="last-2-products" id="last-2-products">
-          <div class="text-research">
-            <div class="text-research-2">
-              <div class="text-product-research">
-                <h3>Research and Development</h3>
-                <span>
-                  R&D: We follow the latest research releases from different universities and technology companies in order to 
-                  validate their research and to develop it to improve its capabilities in our field moreover we collaborate with 
-                  universities to find breakthroughs and problem-solving for the most common matters. <a href="r&d-product.html">Learn more</a>
-                </span>
-              </div>
-            </div>
-            <div class="video-research">
-              <video src="img/product-videos/avs.mp4" loop muted></video>
-            </div>
-          </div>
-          <div class="text-mobile">
-            <div class="text-mobile-2">
-              <div class="text-product-mobile">
-                <h3>Mobile Application</h3>
-                <span>
-                  We can develop any mobile application, using
-                  innovative solutions and high techs such as VR, AR, UI, and
-                  UX. To achieve attractive designs. <a href="mobile-product.html">Learn more</a>
-                </span>
-              </div>
-            </div>
-          </div>
+      <section class="home-avs" id="home">
+        <div class="vidd" data-aos="zoom-out">
+          <img src="img/mobile-background-edited.png" class="vidd">
         </div>
       </section>
+      <!-- content -->
       
-      <script>
-        const textAvsContainer = document.querySelector(".text-avs");
-        const videoElement = document.querySelector(".text-avs video");
-        const textAIContainer = document.querySelector(".text-ai");
-        const videoElement1 = document.querySelector(".text-ai video");
-        const textResearchContainer = document.querySelector(".text-research");
-        const videoElement2 = document.querySelector(".text-research video");
+      <div class="content-container">
+        <div class="content-header">
+          <h1>Research And Development</h1>
+          <span>
+            R&D: We follow the latest research releases from different universities and technology companies in order to 
+            validate their research and to develop it to improve its capabilities in our field moreover we collaborate with 
+            universities to find breakthroughs and problem-solving for the most common matters. <a href="Research/index.html">Learn More</a>
+          </span>
+        </div>
+        <div class="product-item" id="avs">
+          <div class="video-embed hiddden">
+            <img src="img/R&D-images/5.png" width="100%" alt="">
+          </div>
+          <div class="product-content" data-aos="fade-up">
+            <div class="product-header">
+              <h3>
+                Open AI
+              </h3>
+            </div>
+            <div class="product-details">
+              <span>
+                Open.AI-GH: Is taking a text as an input and translates it to grasshopper visual script , without 
+                needing to redo or program script that are repetitive and complex at the same time.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-item" id="avs">
+          <div class="video-embed hiddden">
+            <img src="img/R&D-images/7.png" width="100%" alt="">
+          </div>
+          <div class="product-content" data-aos="fade-up">
+            <div class="product-header">
+              <h3>
+                Blockchain
+              </h3>
+            </div>
+            <div class="product-details">
+              <span>
+                BLOCKCHAIN is a type of distributed ledger technology (DLT) that consists of a growing list of records, called 
+                blocks, that are securely linked together using cryptography.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-item" id="avs">
+          <div class="video-embed hiddden">
+            <img src="img/R&D-images/4.png" width="100%" alt="">
+          </div>
+          <div class="product-content" data-aos="fade-up">
+            <div class="product-header">
+              <h3>
+                Deep-Learning-API
+              </h3>
+            </div>
+            <div class="product-details">
+              <span>
+                SPIDER is not an application nor a software, it is a 4-year-old platform that has over 12 API libraries from different 
+                Software (3Ds Max, Autodesk Revit, Rhinoceros 3D, SketchUp, etc..), all translated and synchronized within each 
+                other and powered by AI technology, adding to that it has a library for machine learning (TensorFlow, PyTorch) with 
+                different scripting languages, regarding their functionalities, it does not matter what program is used as much as 
+                the reliability of translating geometry and shapes between these tools.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-item" id="avs">
+          <div class="video-embed hiddden">
+            <img src="img/R&D-images/2.png" width="100%" alt="">
+          </div>
+          <div class="product-content" data-aos="fade-up">
+            <div class="product-header">
+              <h3>
+                Assistant Human Robot
+              </h3>
+            </div>
+            <div class="product-details">
+              <span>
+                Human robots can answer your customer's queries and provide the 
+                most up-to-date product and promotional information, increasing 
+                the likelihood that your consumers will learn, comprehend, and 
+                purchase. By tackling typical, repetitive activities, a human robot 
+                may help your staff be even more productive, freeing up their time 
+                and talent. Over the course of discussions, a human robot collects 
+                data about people's likes, personalities, preferences, and routines 
+                to tailor replies and better meet their requirements.
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="product-item" id="avs">
+          <div class="video-embed hiddden">
+            <img src="img/R&D-images/1.png" width="100%" alt="">
+          </div>
+          <div class="product-content" data-aos="fade-up">
+            <div class="product-header">
+              <h3>
+                3D Capture Block
+              </h3>
+            </div>
+            <div class="product-details">
+              <span>
+                Is a robot working in the construction sector, its main 
+                function is to build using blocks in construction, which 
+                provides several advantages.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
       
-        textAvsContainer.addEventListener("mouseover", () => {
-          videoElement.play();
-        });
-        textAIContainer.addEventListener("mouseover", () => {
-          videoElement1.play();
-        });
-        textResearchContainer.addEventListener("mouseover", () => {
-          videoElement2.play();
-        });
       
-        textAvsContainer.addEventListener("mouseout", () => {
-          videoElement.pause();
-        });
-        textAIContainer.addEventListener("mouseout", () => {
-          videoElement1.pause();
-        });
-        textResearchContainer.addEventListener("mouseout", () => {
-          videoElement2.pause();
-        });
-      </script>
+      <!-- content-end -->
 
         <section data-aos="fade-up" class="footer">
           <div class="footer-content">
