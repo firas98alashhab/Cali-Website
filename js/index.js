@@ -78,22 +78,22 @@ function startCount(el) {
 
 window.onscroll = function () {
         if (window.scrollY >= about.offsetTop) {
-            if (!started) {
-                startCount(document.querySelectorAll(".nums .num")[0]);
-                startCount(document.querySelectorAll(".nums .num2")[0]);
-                startCount(document.querySelectorAll(".nums .num3")[0]);
-            }
-            started = true;
+                if (!started) {
+                        startCount(document.querySelectorAll(".nums .num")[0]);
+                        startCount(document.querySelectorAll(".nums .num2")[0]);
+                        startCount(document.querySelectorAll(".nums .num3")[0]);
+                }
+                started = true;
         }
-    
+
         if (window.scrollY > 100) {
-            $(".nav").addClass("nav2");
+                $(".nav").addClass("nav2");
         } else {
-            $(".nav").removeClass("nav2");
+                $(".nav").removeClass("nav2");
         }
         // Remove the code related to PRODUCTS
-    };
-    
+};
+
 
 
 
@@ -308,15 +308,15 @@ $(document).ready(function () {
 //        ---------->FIRAS LOGIC<---------
 const hiddenElement = document.querySelectorAll('.hiddden');
 const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            if (!entry.target.classList.contains('show')) {
-                entry.target.classList.add('show');
-            }
-        } else {
-            entry.target.classList.add('hiddden');
-        }
-    });
+        entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                        if (!entry.target.classList.contains('show')) {
+                                entry.target.classList.add('show');
+                        }
+                } else {
+                        entry.target.classList.add('hiddden');
+                }
+        });
 });
 
 hiddenElement.forEach((el) => observer.observe(el));

@@ -77,12 +77,14 @@
       </script>
       
       <!-- ---------------nav------------------------->
-      <div class="na " data-aos="fade-down">
+      <div class="na" data-aos="fade-down">
 
-        <nav class="nav " style="position: relative;">
-          <a href="#" class="loogo" id="loogo" style="float: left;">
-            <div></div>
-          </a>
+        <nav class="nav" style="position: relative;">
+          <div class="logo-placeholder">
+            <a href="#" class="loogo" id="loogo" style="float: left;">
+              <div></div>
+            </a>
+          </div>
     
           <ul class="btn-nav">
             <span class="material-symbols-outlined menu" data-toggle="modal" data-target="#menu">
@@ -94,7 +96,7 @@
             <li><a class="btn-nav-text h-nav" href="products.html"> Product</a></li>
             <li><a class="btn-nav-text h-nav" href="#map">Contact Us</a></li>
           </ul>
-          <a href="https://tour.cali.global/">
+          <a class="vr-link" href="https://tour.cali.global/">
             <div class="an-vr">
               <button class="kave-btn" id="kave-btn">
                 <span class="kave-line"></span>
@@ -111,10 +113,10 @@
         <div class="modal-dialog ">
           <div style="display: flex; align-items: center; width: 100%; " tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
-            <div
-              style="  list-style-type: none; padding: 10px; margin: auto; width: 50%;transform: translateY(100%); padding: 10px; -webkit-backdrop-filter: blur(5px);   backdrop-filter: blur(5px);"
+            <div class="collapsed-navbar"
+              style="  list-style-type: none; padding: 30px; margin: auto; width: 50%;transform: translateY(100%); padding: 10px; -webkit-backdrop-filter: blur(5px);   backdrop-filter: blur(5px);"
               tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <li><a class="btn-nav-text" href="#About_us">About Us</a></li>
+              <li style="padding-top: 25px;"><a class="btn-nav-text" href="#About_us">About Us</a></li>
               <h3 style="opacity: 0;">.</h3>
               <li><a class="btn-nav-text" href="#Milestones">Milestones </a></li>
               <h3 style="opacity: 0;">.</h3>
@@ -123,6 +125,8 @@
               <li><a class="btn-nav-text" href="products.html"> Product</a></li>
               <h3 style="opacity: 0;">.</h3>
               <li><a class="btn-nav-text" href="#map">Contact Us</a></li>
+              <h3 style="opacity: 0;">.</h3>
+              <li style="padding-bottom: 20px;"><a class="btn-nav-text vr-navbar" href="https://tour.cali.global/">Virtual Tour</a></li>
             </div>
           </div>
         </div>
@@ -142,7 +146,7 @@
     </div>
       </section>
       <!-- ---------home------------- -->
-      <section class="About_us" id="About_us" data-aos="zoom-out">
+      <section class="About_us" id="About_us">
         <div class="text_about  hiddden">
             <h1>About us</h1>
             <p>Cali Technology Solutions is a company located in Jordan and Saudi Arabia and United Arab Emirates, that specialized in linking Artificial Intelligence with Architecture specially and Engineering generally to increase the accuracy with the highest quality and shortened time estimation.</p>
@@ -152,29 +156,45 @@
                 <h1 class="num" data-goal="5">0</h1>
                 <p>Researches</p>
                 <p>coming soon!!</p>
-                <a href="R/inex.html">Learn more</a>
             </div>
             <div class="counter hiddden" style="margin: auto; " >
                 <h1 class="num2" data-goal="26">0</h1>
                 <p>Employees</p>
-                <a href="#teams">Learn more</a>
             </div>
             <div class="counter right hiddden">
                 <h1 class="num3" data-goal="16">0</h1>
                 <p>Projects</p>
                 <p>coming soon!!</p>
-                <a href="#PRODUCTS">Learn more</a>
             </div>
         </div>
       </section>
 
         <!-- -----------about------------ -->
 
+
+
+
+        <section class="PRODUCTS hiddden" id="PRODUCTS">
+          <div class="product-text">
+              <h1>PRODUCTS</h1>
+              <p class="products-p">Explore cutting-edge solutions at the nexus of Advanced Visualization, Artificial Intelligence, Research and Development, and Mobile Applications. Our pride lies in delivering unparalleled innovation—from revolutionary visualizations to adaptive AI solutions. Rooted in rigorous R&D and staying ahead in mobile tech, our products seamlessly blend creativity and functionality. Discover how we transcend boundaries, setting new benchmarks in technology and user satisfaction.</p>
+              <a href="products.html">Learn more</a>
+          </div>
+      </section>
+
+
+
+
+
+
+
+
+
         
-        <div class="product-text hiddden goals-h1"  data-aos="fade-up">
+        <div class="product-text hiddden goals-h1">
           <h1>Goals</h1>
         </div>
-        <section class="goals" data-aos="fade-right">
+        <section class="goals" >
           <div class="goals-scren">
             <img class="img-goal-1 hiddden" src="img/goal.png" alt="" data-toggle="modal" data-target="#goals-1" >
           
@@ -212,10 +232,10 @@
           </div>
           
         </section>
-        <div class="product-text hiddden vision-h1"  data-aos="fade-up">
+        <div class="product-text hiddden vision-h1">
           <h1>Vision</h1>
         </div>
-        <section class="vision hiddden" data-aos="fade-left">
+        <section class="vision hiddden" >
           <img src="img/vision.png" alt="">
           <div>
             <p>
@@ -224,25 +244,25 @@
           </div>
         </section>
 
-        <div class="product-text hiddden milestones-h1" style="font-size: 20px; padding-bottom: 100px;"  data-aos="fade-up" id="Milestones">
+        <div class="product-text hiddden milestones-h1" style="font-size: 20px; padding-bottom: 100px;" id="Milestones">
           <h1>CALI Milestones</h1>
         </div>
-        <section class="section hiddden" data-aos="fade-right">
+        <section class="section hiddden" >
           <img style="width: 80%;" src="img/wetransfer_manaseer-test-1-png_2023-02-08_1420/Cali Milestones4.png">
         </section>
 
-        <div class="product-text hiddden milestones-h2" style="font-size: 20px; padding-bottom: 100px;" data-aos="fade-up">
+        <div class="product-text hiddden milestones-h2" style="font-size: 20px; padding-bottom: 100px;">
           <h1>CALI Futuristic Milestones</h1>
         </div>
 
-        <section class="section hiddden" data-aos="fade-left">
+        <section class="section hiddden" >
           <img style="width: 80%;" src="img/wetransfer_manaseer-test-1-png_2023-02-08_1420/Cali Futurestic Milestones3.png">
         </section>
 
         <!-- ------------------Team---------------------- -->
 
         <div class="teams" id="teams">
-          <div class="product-text founders" style="padding-bottom: 50px;"  data-aos="fade-up">
+          <div class="product-text founders" style="padding-bottom: 50px;">
             <h1>Co-founders</h1>
             <div class="containerr">
               <div class="card">
@@ -276,7 +296,7 @@
                       </div>
                       <div class="card__body">
                         <h3>CTO - Architect - ML Engineer</h3>
-                        <p>2017 Elite Academy - Lecturer 2018 Aion Landscape - Director 2018 Virtual Render Studio CALI Technology Solutions- Founder</p>
+                        <p></p>
                       </div>
                     </div>
                   </div>
@@ -295,7 +315,7 @@
                       </div>
                       <div class="card__body">
                         <h3>COO - Business Analyst</h3>
-                        <p>2016 IDS Studio- Designer - COO CALI Technology Solutions- Founder</p>
+                        <p>2017 Elite Academy - Lecturer 2018 Aion Landscape - Director 2018 Virtual Render Studio CALI Technology Solutions- Founder</p>
                       </div>
                     </div>
                   </div>
@@ -325,7 +345,7 @@
 
 
 
-          <div class="product-text ourteam" style="margin-bottom: 300px; margin-top: 300px;"  data-aos="fade-up">
+          <div class="product-text ourteam" style="margin-bottom: 300px; margin-top: 300px;">
             <h1>Our Team</h1>
           </div>
             <div class="containerr">
@@ -754,15 +774,15 @@
         
         <!-- ------------------FIRAS clients---------------------- -->
         <section class="clientss">
-          <div class="product-text" style="margin-top: 300px; margin-bottom: 300px;" data-aos="fade-up">
+          <div class="product-text" style="margin-top: 300px; margin-bottom: 300px;">
             <h1>Clients</h1>
           </div>
 
           <div class="gallery" style="margin-bottom: -200px;">
             <div class="gallery-container">
               <img class="gallery-item gallery-item-1" src="img/client-firas/12-12.jpg" data-index="1">
-              <img class="gallery-item gallery-item-2" src="img/client-firas/14-14.jpg" data-index="2">
-              <img class="gallery-item gallery-item-3" src="img/client-firas/13-13.jpg" data-index="3">
+              <img class="gallery-item gallery-item-2" src="img/client-firas/13-13.jpg" data-index="2">
+              <img class="gallery-item gallery-item-3" src="img/client-firas/14-14.jpg" data-index="3">
               <img class="gallery-item gallery-item-4" src="img/client-firas/15-15.jpg" data-index="4">
               <img class="gallery-item gallery-item-5" src="img/client-firas/1-1.jpg" data-index="5">
               <img class="gallery-item gallery-item-6" src="img/client-firas/6-6.jpg" data-index="6">
@@ -785,17 +805,17 @@
         <!-- ------------------clients---------------------- -->
 
 
-          <div class="product-text" style="padding-bottom: 250px;"  data-aos="fade-up">
+          <div class="product-text" style="padding-bottom: 250px;">
             
           </div>
-          <div class="wrapper"  data-aos="fade-up">
+          <div class="wrapper">
             <div class="carousel">
             </div>
           </div>
         </section>
 
 
-        <section class="map" data-aos="fade-up" id="map">
+        <section class="map" id="map">
           <div class="content-map">
             <div class="btn-map">
               <button class="btn Egypt-btn">Egypt</button>
@@ -811,7 +831,7 @@
 
         </section>
 
-        <section data-aos="fade-up" class="footer">
+        <section class="footer">
           <div class="footer-content">
             <div>
               <span><a href="tel:+962798888211" style="color: white;">+962798888211</a></span>
