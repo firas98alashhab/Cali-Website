@@ -3088,6 +3088,10 @@ h1{
     height: 100%;
   }
 
+  .product-text .products-p {
+    margin-top: 30px !important;
+  }
+
   .an-vr{
     position: absolute;
     width: 250px !important;
@@ -3117,6 +3121,11 @@ h1{
     left: 10% !important;
     width: 150px !important;
     height: 100%;
+  }
+
+  .product-text .products-p {
+    margin-bottom: 20px;
+    padding: 0 70px !important;
   }
 
   .an-vr{
@@ -3229,6 +3238,19 @@ h1{
 }
 
 @media only screen and (max-width: 600px) {
+  .vision img {
+    width: 250px !important;
+  }
+  .product-text .products-class {
+    margin-bottom: 50px !important;
+  }
+  .product-text .products-p {
+    margin-bottom: 40px !important;
+    font-size: 0.7rem !important;
+  }
+  .product-text a {
+    font-size: 1rem !important;
+  }
   .vr-navbar {
     display: block;
   }
@@ -3304,6 +3326,9 @@ h1{
 .vid{
   padding-top: 50px;
 }
+.home {
+  padding-bottom: 200px;
+}
 .About_us{
   margin-top: -400px;
 }
@@ -3357,8 +3382,10 @@ h1{
 .milestones-h2 {
   margin-bottom: 180px;
   max-width: 420px;
-  margin-left: 35px;
   line-height: 30px;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 .section img {
   margin-bottom: 150px;
@@ -3653,6 +3680,9 @@ h1{
 }
 
 @media only screen and (max-width: 400px) {
+  .vision img {
+    width: 150px !important;
+  }
   .product-text{
     font-size: 30px;
   }
@@ -3791,6 +3821,13 @@ h1{
 }
 
 @media only screen and (max-width: 500px){
+  .product-text .products-p {
+    margin-bottom: 10px !important;
+    font-size: 0.5rem !important;
+  }
+  .product-text a {
+    font-size: 0.7rem !important;
+  }
   .PRODUCTS{
     width: 95%;
     overflow: visible;
@@ -3937,6 +3974,12 @@ h1{
   }
 }
 
+@media (max-width: 420px ) {
+  .product-text .products-p {
+    margin-bottom: 20px !important;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .nav{
     width: 102%;
@@ -4012,6 +4055,15 @@ h1{
   
 }
 
+@media (max-width: 676px) {
+
+  .product-text .products-p {
+    margin-top: 30px !important;
+    margin-bottom: 30px;
+    padding: 0 50px !important;
+    font-size: 0.9rem;
+  }
+}
 
 
 
@@ -6032,6 +6084,9 @@ h1{
   }
 
   @media (max-width: 400px) {
+    .product-text .products-p {
+      margin-bottom: 40px !important;
+    }
     .main-title h2 {
       font-size: 18px;
     }
@@ -6081,6 +6136,16 @@ h1{
       padding-bottom: 0 !important;
     }
 
+    @media (max-width: 372px) {
+      .product-text .products-p {
+        margin-bottom: 50px !important;
+      }
+    }
+    @media (max-width: 320px) {
+      .product-text .products-p {
+        margin-bottom: 60px !important;
+      }
+    }
     /* corner borders */
 
     .last-2-products .text-research::before,
