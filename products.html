@@ -86,7 +86,7 @@
           </div>
     
           <ul class="btn-nav">
-            <span class="material-symbols-outlined menu" data-toggle="modal" data-target="#menu">
+            <span class="material-symbols-outlined menu" data-toggle="modal" data-target="#menu" onclick="toggleMenu()">
               menu
             </span>
             <li><a class="btn-nav-text h-nav" href="index.html#About_us">About Us</a></li>
@@ -110,10 +110,10 @@
       <div class="modal fade boximg" id="menu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
         style="position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 9999;">
         <div class="modal-dialog ">
-          <div style="display: flex; align-items: center; width: 100%; " tabindex="-1" aria-labelledby="exampleModalLabel"
+          <div style="display: flex; align-items: center; width: 100%; height: 100vh;" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div
-              style="  list-style-type: none; padding: 10px; margin: auto; width: 50%;transform: translateY(100%); padding: 10px; -webkit-backdrop-filter: blur(5px);   backdrop-filter: blur(5px);"
+              style="  list-style-type: none; padding: 10px; margin: auto; width: 50%; -webkit-backdrop-filter: blur(5px);   backdrop-filter: blur(5px);"
               tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <li style="padding-top: 25px;"><a class="btn-nav-text" href="index.html#About_us">About Us</a></li>
               <h3 style="opacity: 0;">.</h3>
@@ -130,6 +130,23 @@
           </div>
         </div>
       </div>
+
+      <script>
+        function toggleMenu() {
+          var menu = document.getElementById('menu');
+          let loogo = document.querySelector('.loogo');
+          
+          if (menu.classList.contains('show')) {
+            menu.style.display = 'none';
+            document.body.classList.remove('no-scroll');
+            loogo.style.zIndex = '100';
+          } else if (!menu.classList.contains('show')) {
+            menu.style.display = 'block';
+            document.body.classList.add('no-scroll');
+            loogo.style.zIndex = '-500';
+          }
+        }
+      </script>
       <!-- ---------------nav----------------------- -->
       <section class="home" id="home">
         <div class="vid" data-aos="zoom-out">

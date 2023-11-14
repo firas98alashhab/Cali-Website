@@ -25,6 +25,10 @@ body {
     width: 100%;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
               /* ----------FIRAS VR Button------------ */
               /* @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap"); */
 
@@ -2764,12 +2768,13 @@ h1{
 
 
 .footer{
-  background: radial-gradient(ellipse at bottom, #0f111b 0%, #0f111b 100%);
+  background: rgba(0, 0, 0, 0.316);
   /* background-color: #83838360; */
   width: 100%;
   min-height: 300px;
   display: flex;
   bottom: 0;
+  border-top: 1px solid #090a0f;
 }
 
 .footer-content{
