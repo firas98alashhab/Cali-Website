@@ -4611,7 +4611,6 @@ h1{
   .mySlides {
     position: relative;
     display: none;
-    animation: fadeInOut 1.5s ease-in-out infinite;
     width: 90%;
     margin: auto;
   }
@@ -4663,21 +4662,6 @@ h1{
     border-radius: 130px;
     z-index: -1;
 }
-
-  @keyframes fadeInOut {
-            0% {
-                opacity: 0;
-            }
-            25% {
-                opacity: 1;
-            }
-            75% {
-                opacity: 1;
-            }
-            100% {
-                opacity: 0;
-            }
-        }
 
 
   @media (max-width: 1180px) {
