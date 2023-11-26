@@ -2999,7 +2999,10 @@ h1{
 }
 
 
+
 @media only screen and (max-width: 1200px) {
+
+  
 
   .loogo{
     top: 12%;
@@ -3086,6 +3089,8 @@ h1{
 }
 
 @media (max-width: 991px) {
+
+  
   .loogo{
     top: 10% !important;
     left: 10% !important;
@@ -3619,6 +3624,14 @@ h1{
 
 
 @media only screen and (max-width: 1300px){
+
+  .slideshow-container {
+    margin: 0 130px !important;
+  }
+
+  .mySlides img {
+    height: 400px !important;
+  }
 
   .loogo{
     top: 12%;
@@ -4574,6 +4587,97 @@ h1{
     padding-bottom: 20px;
     padding-top: 10px;
   }
+
+  
+
+  .slideshow-container {
+    position: relative;
+    margin: auto;
+    padding: 22px;
+    border-radius: 130px;
+    overflow: hidden;
+    border: 3px solid #ccc;
+    margin: 0 220px;
+  }
+
+  .mySlides img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 130px;
+  }
+
+  .mySlides {
+    position: relative;
+    display: none;
+    animation: fadeInOut 1.5s ease-in-out infinite;
+    width: 90%;
+    margin: auto;
+  }
+
+  .img-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 5px 10px 3px #920853;
+    border-radius: 130px;
+    z-index: -1;
+}
+
+.img-2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 5px 10px 3px #076eb4;
+    border-radius: 130px;
+    z-index: -1;
+}
+
+.img-3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 5px 10px 3px #5ff6fe;
+    border-radius: 130px;
+    z-index: -1;
+}
+
+.img-4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 5px 10px 3px #f51d66;
+    border-radius: 130px;
+    z-index: -1;
+}
+
+  @keyframes fadeInOut {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 1;
+            }
+            75% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
 
 
   @media (max-width: 1180px) {
@@ -6738,3 +6842,118 @@ h1{
   .flickity-button {
     padding-top: 500px;
   }
+
+  
+@media (max-width: 1200px) {
+  .slideshow-container {
+    margin: 0 100px!important;
+  }
+
+  .mySlides img {
+    height: 350px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .slideshow-container {
+    margin: 0 80px!important;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    margin-bottom: -90px !important;
+  }
+
+  .mySlides {
+    border-radius: 0;
+    width: 98%;
+  }
+
+  .mySlides img {
+    border-radius: 30px;
+    height: 300px !important;
+  }
+  .img-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 10px 3px #92085400;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+  .img-2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 10px 3px #076fb400;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.img-3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 20px 10px #5ff6fe00;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.img-4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 0 10px 3px #f51d6500;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+}
+
+@media (max-width: 600px) {
+  .slideshow-container {
+    margin: 0 30px!important;
+    padding: 0;
+    border: none;
+    margin-bottom: 50px !important;
+  }
+
+  .mySlides {
+    width: 98%;
+  }
+
+  .mySlides img {
+    height: 280px !important;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .slideshow-container {
+    margin: 0 30px!important;
+    padding: 0;
+    border: none;
+    margin-bottom: 50px !important;
+  }
+
+  .mySlides {
+    width: 98%;
+  }
+
+  .mySlides img {
+    height: 180px !important;
+  }
+
+}

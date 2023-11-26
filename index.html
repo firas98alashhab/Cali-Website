@@ -192,7 +192,37 @@
 
 
 
-        <section class="PRODUCTS hiddden" id="PRODUCTS">
+        <section class="PRODUCTS hiddden" id="PRODUCTS">''
+          <div class="slideshow-container">
+            <div class="mySlides img-1">
+                <img src="img/avs-background-1.png" alt="Slide 1">
+            </div>
+            <div class="mySlides img-2">
+                <img src="img/background-ai.png" alt="Slide 2">
+            </div>
+            <div class="mySlides img-3">
+              <img src="img/Research-background.png" alt="Slide 2">
+            </div>
+            <div class="mySlides img-4">
+              <img src="img/mobile-background-edited.png" alt="Slide 2">
+            </div>
+        </div>
+        <script>
+          let slideIndex = 0;
+          showSlides();
+  
+          function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) { slideIndex = 1 }
+              slides[slideIndex - 1].style.display = "block";
+              setTimeout(showSlides, 1500);
+            }
+        </script>
           <div class="product-text">
               <h1 class="products-class">PRODUCTS</h1>
               <p class="products-p">Explore cutting-edge solutions at the nexus of Advanced Visualization, Artificial Intelligence, Research and Development, and Mobile Applications. Our pride lies in delivering unparalleled innovation—from revolutionary visualizations to adaptive AI solutions. Rooted in rigorous R&D and staying ahead in mobile tech, our products seamlessly blend creativity and functionality. Discover how we transcend boundaries, setting new benchmarks in technology and user satisfaction.</p>
@@ -876,7 +906,7 @@
         <script src="js/clientScript.js"></script>
         <script src="js/teamScript.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
         <script src="js/all.min.js"></script>
         <script>
             AOS.init({
