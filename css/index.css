@@ -3762,7 +3762,7 @@ h1{
     padding: 30px 2px 4px;
   }
   #PRODUCTS{
-    width: 95%;
+    width: 100%;
     overflow: visible;
     transition: 1s;
     margin-left: auto;
@@ -3847,7 +3847,7 @@ h1{
     font-size: 0.7rem !important;
   }
   .PRODUCTS{
-    width: 95%;
+    width: 100%;
     overflow: visible;
     transition: 1s;
     margin-left: auto;
@@ -4009,7 +4009,7 @@ h1{
     margin-left: -10px;
   }
   .PRODUCTS{
-    width: 96.5%;
+    width: 100%;
     overflow: visible;
     transition: 1s;
     margin-left: auto;
@@ -4661,6 +4661,840 @@ h1{
     box-shadow: 0 5px 10px 3px #f51d66;
     border-radius: 130px;
     z-index: -1;
+}
+
+.location {
+  max-width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+.location img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+.location-btn {
+  position: absolute;
+  display: inline-block;
+  background-color: #090a0f;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.location-btn .dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  margin: auto;
+  left: 32%;
+  top: 14%;
+  translate: transform(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.location-btn:hover .dot {
+  transform: scale(1.2);
+}
+
+.location-btn .dot-name {
+  position: absolute;
+  top: 35px;
+  left: -13px;
+  font-size: 1.2rem;
+}
+
+.location-btn:hover .dot-name {
+  display: block;
+}
+
+.location-btn:nth-child(1) {
+  top: 50px;
+  right: 20px;
+}
+
+.location-btn:nth-child(2) {
+  top: 50%;
+  bottom: 50%;
+  translate: transform(-50%, -50%);
+  right: 180px;
+}
+
+.location-btn:nth-child(3) {
+  top: 50%;
+  bottom: 50%;
+  translate: transform(-50%, -50%);
+  left: 330px;
+}
+
+.location-btn:nth-child(4) {
+  top: 76%;
+  bottom: 50%;
+  translate: transform(-50%, -50%);
+  left: 180px;
+}
+
+
+@media (max-width: 1800px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 160px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 300px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 76%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 150px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 275px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 77%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 135px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 255px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 77%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 125px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 235px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 79%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 125px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 235px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 79%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 115px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 215px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 79%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 115px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 215px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 81%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 35%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 25px;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 105px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 195px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 81%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 35%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 25px;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 95px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 175px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 83%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+}
+
+@media (max-width: 991px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 75px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 145px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 83%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 35%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 22px !important;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+  .location-btn .dot-name {
+    position: absolute;
+    top: 35px;
+    left: -13px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 75px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 145px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 85%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 30%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 18px !important;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+  .location-btn .dot-name {
+    position: absolute;
+    top: 35px;
+    left: -13px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 65px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 125px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 85%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 30%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 18px !important;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+  .location-btn .dot-name {
+    position: absolute;
+    top: 35px;
+    left: -13px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 700px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 65px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 130px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 86%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 180px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 30%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 18px !important;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+  .location-btn .dot-name {
+    position: absolute;
+    top: 35px;
+    left: -13px;
+    font-size: 1rem;
+  }
+  .location {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 50px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 100px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 84%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 140px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 30%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 18px !important;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+  .location-btn .dot-name {
+    position: absolute;
+    top: 35px;
+    left: -13px;
+    font-size: 1rem;
+  }
+  .location {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 35px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 80px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 83%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 120px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 30%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 18px !important;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+  .location-btn .dot-name {
+    position: absolute;
+    top: 35px;
+    left: -13px;
+    font-size: 0.8rem;
+  }
+  .location {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+  }
+}
+
+@media (max-width: 440px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 25px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 70px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 83%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 120px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 30%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 18px !important;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+  .location-btn .dot-name {
+    position: absolute;
+    top: 35px;
+    left: -13px;
+    font-size: 0.8rem;
+  }
+  .location {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+  }
+}
+
+@media (max-width: 390px) {
+  .location-btn:nth-child(2) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    right: 17px;
+  }
+  
+  .location-btn:nth-child(3) {
+    top: 50%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 60px;
+  }
+  
+  .location-btn:nth-child(4) {
+    top: 83%;
+    bottom: 50%;
+    translate: transform(-50%, -50%);
+    left: 120px;
+  }
+  .location-btn {
+    position: absolute;
+    display: inline-block;
+    background-color: #090a0f;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .location-btn .dot {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    left: 30%;
+    top: 14%;
+    translate: transform(-50%, -50%);
+  }
+  
+  .location-btn .dot-name {
+    position: absolute;
+    top: 18px !important;
+    left: -18px;
+    font-size: 1.2rem;
+  }
+  .location-btn .dot-name {
+    position: absolute;
+    top: 35px;
+    left: -13px;
+    font-size: 0.8rem;
+  }
+  .location {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+  }
 }
 
 
