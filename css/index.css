@@ -4743,6 +4743,10 @@ h1{
   left: 180px;
 }
 
+.map {
+  display: none;
+}
+
 
 @media (max-width: 1800px) {
   .location-btn:nth-child(2) {
@@ -5010,60 +5014,11 @@ h1{
 }
 
 @media (max-width: 991px) {
-  .location-btn:nth-child(2) {
-    top: 50%;
-    bottom: 50%;
-    translate: transform(-50%, -50%);
-    right: 75px;
+  .location {
+    display: none;
   }
-  
-  .location-btn:nth-child(3) {
-    top: 50%;
-    bottom: 50%;
-    translate: transform(-50%, -50%);
-    left: 145px;
-  }
-  
-  .location-btn:nth-child(4) {
-    top: 83%;
-    bottom: 50%;
-    translate: transform(-50%, -50%);
-    left: 180px;
-  }
-  .location-btn {
-    position: absolute;
-    display: inline-block;
-    background-color: #090a0f;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-  }
-  .location-btn .dot {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    border-radius: 50%;
-    margin: auto;
-    left: 35%;
-    top: 14%;
-    translate: transform(-50%, -50%);
-  }
-  
-  .location-btn .dot-name {
-    position: absolute;
-    top: 22px !important;
-    left: -18px;
-    font-size: 1.2rem;
-  }
-  .location-btn .dot-name {
-    position: absolute;
-    top: 35px;
-    left: -13px;
-    font-size: 1rem;
+  .map {
+    display: block;
   }
 }
 
