@@ -3061,6 +3061,7 @@ h1 {
 
   .product-text .products-p {
     margin-top: 30px !important;
+    margin-bottom: 30px;
   }
 
   .an-vr {
@@ -3095,7 +3096,7 @@ h1 {
   }
 
   .product-text .products-p {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding: 0 70px !important;
   }
 
@@ -3212,7 +3213,7 @@ h1 {
     margin-bottom: 50px !important;
   }
   .product-text .products-p {
-    margin-bottom: 40px !important;
+    margin-bottom: 50px !important;
     font-size: 0.7rem !important;
   }
   .product-text a {
@@ -3738,12 +3739,14 @@ h1 {
   padding-right: auto;
   opacity: 0.7;
   transition: 0.3s ease-out;
+  border: 1px solid #00d6fc;
+  padding: 15px 28px;
 }
 .product-text a:hover {
   opacity: 1;
 }
 
-.product-text a::before {
+/* .product-text a::before {
   content: "";
   position: absolute;
   top: 105%;
@@ -3757,7 +3760,7 @@ h1 {
 .product-text a:hover::before {
   width: 100%;
   left: 0;
-}
+} */
 
 @media only screen and (max-width: 376px) {
   .menu {
@@ -3786,7 +3789,7 @@ h1 {
 
 @media only screen and (max-width: 500px) {
   .product-text .products-p {
-    margin-bottom: 10px !important;
+    margin-bottom: 30px !important;
     font-size: 0.5rem !important;
   }
   .product-text a {
@@ -3940,7 +3943,7 @@ h1 {
 
 @media (max-width: 420px) {
   .product-text .products-p {
-    margin-bottom: 20px !important;
+    margin-bottom: 40px !important;
   }
 }
 
@@ -4268,14 +4271,17 @@ h1 {
 .text-product-research span a,
 .text-product-mobile span a {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #000000;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 3px 8px;
   font-size: 1rem;
   font-weight: 700;
   text-decoration: none;
   position: relative;
 }
 
-.text-product span a::after,
+/* .text-product span a::after,
 .text-product-ai span a::after,
 .text-product-research span a::after,
 .text-product-mobile span a::after {
@@ -4296,7 +4302,7 @@ h1 {
 .text-product-research span a:hover::after,
 .text-product-mobile span a:hover::after {
   animation: underline 0.3s ease forwards;
-}
+} */
 
 @keyframes underline {
   from {
@@ -6878,7 +6884,7 @@ h1 {
 
 @media (max-width: 400px) {
   .product-text .products-p {
-    margin-bottom: 40px !important;
+    margin-bottom: 60px !important;
   }
   .main-title h2 {
     font-size: 18px;
@@ -6931,12 +6937,12 @@ h1 {
 
   @media (max-width: 372px) {
     .product-text .products-p {
-      margin-bottom: 50px !important;
+      margin-bottom: 70px !important;
     }
   }
   @media (max-width: 320px) {
     .product-text .products-p {
-      margin-bottom: 60px !important;
+      margin-bottom: 80px !important;
     }
   }
   /* corner borders */
